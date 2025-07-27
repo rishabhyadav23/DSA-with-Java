@@ -1,6 +1,14 @@
 package Sorting;
 // Quicj sort
-// Time Complexity : Worst case - O(n^2) | Best - O(n*logn)
+// 👉 Also uses Divide and Conquer, but selects a pivot and partitions the array such that elements < pivot go left, and > pivot go right.
+
+// 🕒 Time: Average O(n log n), Worst: O(n²)
+
+// 🧠 Space: O(log n) (for recursion)
+
+// ✅ Stable: No
+
+// 🔥 Use: Fastest in practice, used in Arrays.sort() in Java (for primitives)
 public class QuickSort {
     //quicksortmethod
     public int[] QuickSortMethod(int[] arr,int low,int high){
