@@ -1,8 +1,15 @@
 package Sorting;
 //Selection Sort
-//Time Complexity - O(n^2)
-// Space Complexity - O(1)
 
+// Repeatedly selects the minimum (or maximum) element from the unsorted part and places it at the correct position.
+
+// 🕒 Time: O(n²)
+
+// 🧠 Space: O(1)
+
+// ✅ Stable: No (unless modified)
+
+🔥 Use: Not efficient; theoretical interest only
 public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = { 3, 70, 3, 9, 5, 2, 8, 6, 40, 42, 1 };
