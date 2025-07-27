@@ -1,7 +1,14 @@
 package Sorting;
 // Merge sort
-// Time Complexity - O(n*logn)
-// Space Complexity - O(n)
+// 👉 Uses Divide and Conquer. Divides array into halves, recursively sorts, then merges sorted halves.
+
+// 🕒 Time: O(n log n)
+
+// 🧠 Space: O(n)
+
+// ✅ Stable: Yes
+
+// 🔥 Use: Used in LinkedLists, external sorting, large files
 public class MergeSort {
 
     public int[] mergeSortMethod(int[] arr,int low,int high){
